@@ -2,13 +2,13 @@
 
 --- 
 
-## Days completition status
+## Days completition status:
 
 | Day:     | Part 1| Part 2|
 |-------------|-------|-------|
 | 01 | ✅ | ✅ |
 | 02 | ✅ | ✅ |
-| 03 | ⏳ | ⏳ |
+| 03 | ✅ | ✅ |
 | 04 | ⏳ | ⏳ |
 | 05 | ⏳ | ⏳ |
 | 06 | ⏳ | ⏳ |

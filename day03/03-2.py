@@ -5,7 +5,7 @@ def main():
 
     comb_sum = 0
 
-    for line_i, line in enumerate(data):
+    for line in data:
         max_combination = 0
 
         res = []
@@ -30,11 +30,10 @@ def get_comb(line: str, index: int, inserted: list[int], res: list[list[int]]):
             if char < subres[i]:
                 return
 
-    if inserted in res:
-        return
-
     if len(inserted) == 12:
-        res.append(inserted.copy())
+        if inserted not in res:
+            res.append(inserted.copy())
+
         return
 
     if index >= len(line):
